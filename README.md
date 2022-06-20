@@ -39,6 +39,12 @@ https://developer.tizen.org/development/tizen-studio/web-tools/running-and-testi
 
 ##### Device Identification
 
+"shell cat /csa/imei/serialno.dat" - Check Serial Number  
+"shell cat /csa/imei/prodcode.dat" - Check Model Number  
+"shell cat /csa/csc/csc-active-customer.inf" - Check Carrier  
+"shell cat /sys/class/power_supply/battery/batt_capacity_max" - Check Maximum Capacity  
+"shell cat /sys/class/power_supply/battery/batt_capacity" - Check Current Capacity  
+
 ##### Device Functions
 ------------
 ### Apple / iOS
