@@ -70,4 +70,17 @@ https://libimobiledevice.org
 
 ### Device Identification
 
+#### Check IMEI (Using ideviceinfo)  
+"-k InternationalMobileEquipmentIdentity"  
+#### Check Serial Number (Using ideviceinfo)  
+"-k SerialNumber"  
+#### Check Model Number (Using ideviceinfo)  
+"-k ModelNumber"  
+#### Check Firmware (Using ideviceinfo)  
+"-k ProductVersion"  
+#### Check Factory Reset Protection (Using ideviceactivation)  
+"activate"  
+#### Check Mobile Device Management Lock (Using ideviceinfo)  
+"-q com.apple.mobile.chaperone -k DeviceIsChaperoned" 
+
 ### Device Functions
