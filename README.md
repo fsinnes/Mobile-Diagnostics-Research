@@ -1,57 +1,73 @@
 # Mobile-Diagnostics-Research
- 
- ------------
-### Samsung / Android
-------------
-#### AT Commands (Hayes Command Set)
+
+## Samsung / Android | AT Commands (Hayes Command Set)
 https://en.wikipedia.org/wiki/Hayes_command_set
 
-##### Device Identification
+### Device Identification
 
-"AT+DEVCONINFO" - Check Basic Information  
-"AT+REACTIVE=1,0,0" - Check Factory Reset Protection  
-"AT+SIZECHECK=?" - Check Storage Size  
-"AT+SVCIFPGM=1,4" - Check Network Lock  
-"AT+VERSNAME=3,2,3" - Check Android Version  
-"AT+BATGETLEVEL?" - Check Battery Information  
-"AT+IMEINUM" - Check IMEI Information  
-"AT+SWVER" - Check Software Information  
+#### Check Basic Information  
+"AT+DEVCONINFO"  
+#### Check Factory Reset Protection  
+"AT+REACTIVE=1,0,0" 
+#### Check Storage Size  
+"AT+SIZECHECK=?"  
+#### Check Network Lock  
+"AT+SVCIFPGM=1,4" - 
+#### Check Android Version  
+"AT+VERSNAME=3,2,3"  
+#### Check Battery Information  
+"AT+BATGETLEVEL?"  
+#### Check IMEI Information  
+"AT+IMEINUM"  
+#### Check Software Information  
+"AT+SWVER"
 
-##### Device Functions
+### Device Functions
 
-"AT+SUDDLMOD=0,0" - Download Mode  
-"AT+FACTORST=0,0" - Factory Reset  
-"AT+CTSA=2,500,500" - Single Tap Screen  
-"AT+CTSA=3,500,500" - Double Tap Screen  
-"AT+CTSA=1,500,500;+CTSA=0,1000,1000" - Swipe Screen  
+#### Download Mode  
+"AT+SUDDLMOD=0,0"  
+#### Factory Reset  
+"AT+FACTORST=0,0"  
+#### Single Tap Screen  
+"AT+CTSA=2,500,500"  
+#### Double Tap Screen  
+"AT+CTSA=3,500,500"  
+#### Swipe Screen  
+"AT+CTSA=1,500,500;+CTSA=0,1000,1000"   
 
-#### ADB Commands (Android Debug Bridge)
+## Samsung / Android | ADB Commands (Android Debug Bridge)
 https://developer.android.com/studio/command-line/adb
 
-##### Device Identification
+### Device Identification
 
-##### Device Functions
-------------
-### Samsung / Tizen
-------------
-#### SDB Commands (Smart Development Bridge)
+### Device Functions
+
+#### Reboot  
+"reboot"  
+#### Remove Factory Reset Protection  
+"shell content insert --uri content://settings/secure --bind name:s:user_setup_complete --bind value:s:1"  
+
+## Samsung / Tizen | SDB Commands (Smart Development Bridge)
 https://developer.tizen.org/development/tizen-studio/web-tools/running-and-testing-your-app/sdb
 
-##### Device Identification
+### Device Identification
 
-"shell cat /csa/imei/serialno.dat" - Check Serial Number  
-"shell cat /csa/imei/prodcode.dat" - Check Model Number  
-"shell cat /csa/csc/csc-active-customer.inf" - Check Carrier  
-"shell cat /sys/class/power_supply/battery/batt_capacity_max" - Check Maximum Capacity  
-"shell cat /sys/class/power_supply/battery/batt_capacity" - Check Current Capacity  
+#### Check Serial Number  
+"shell cat /csa/imei/serialno.dat"  
+#### Check Model Number  
+"shell cat /csa/imei/prodcode.dat"  
+#### Check Carrier  
+"shell cat /csa/csc/csc-active-customer.inf"  
+#### Check Maximum Capacity  
+"shell cat /sys/class/power_supply/battery/batt_capacity_max"  
+#### Check Current Capacity  
+"shell cat /sys/class/power_supply/battery/batt_capacity"  
 
-##### Device Functions
-------------
-### Apple / iOS
-------------
-#### iMobileDevice Commands (libimobiledevice)
+### Device Functions
+
+## Apple / iOS | iMobileDevice Commands (libimobiledevice)
 https://libimobiledevice.org
 
-##### Device Identification
+### Device Identification
 
-##### Device Functions
+### Device Functions
