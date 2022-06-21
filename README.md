@@ -63,6 +63,15 @@ https://en.wikipedia.org/wiki/Hayes_command_set
 "AT+CTSA=2,750,1700" (\#)  
 "AT+CTSA=2,900,1450" (Accept ADB Prompt)  
 
+- **SM-G970 Android 9/10/11 Open Dialer & Accept ADB**  
+"AT+CTSA=2,100,2100" (Open Dialer)  
+"AT+CTSA=2,300,1800" (\*)  
+"AT+CTSA=2,900,1800" (\#)    
+"AT+CTSA=2,600,1800" (0)    
+"AT+CTSA=2,300,1700" (\*)    
+"AT+CTSA=2,300,1800" (\#)  
+"AT+CTSA=2,900,1800" (Accept ADB Prompt)  
+
 ### ADB Commands (Android Debug Bridge)  
 https://developer.android.com/studio/command-line/adb
 
