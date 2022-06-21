@@ -61,7 +61,7 @@ https://en.wikipedia.org/wiki/Hayes_command_set
 "AT+CTSA=2,500,1700" (0)    
 "AT+CTSA=2,300,1700" (\*)    
 "AT+CTSA=2,750,1700" (\#)  
-"AT+CTSA=2,900,1450" (Accept Prompt)  
+"AT+CTSA=2,900,1450" (Accept ADB Prompt)  
 
 ### ADB Commands (Android Debug Bridge)  
 https://developer.android.com/studio/command-line/adb
