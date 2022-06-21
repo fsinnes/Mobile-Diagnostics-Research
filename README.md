@@ -52,7 +52,7 @@ https://en.wikipedia.org/wiki/Hayes_command_set
 "AT+SWATD=1"  
 "AT+DEBUGLVC=0,5"  
 
-#### Automated Touch Scripts
+#### Touch Scripts
 
 - **SM-G950 Android 8 Open Dialer**  
 "AT+CTSA=2,600,2100" (Open Dialer)  
