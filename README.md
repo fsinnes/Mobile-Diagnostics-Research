@@ -36,7 +36,9 @@ https://en.wikipedia.org/wiki/Hayes_command_set
 - **Swipe Screen**  
 "AT+CTSA=1,500,500;+CTSA=0,1000,1000"   
 - **Enable ADB (Newer Model Version)**  
-*Must type \*#0\*# on dialer and enter test mode*  
+!*Must type \*#0\*# on dialer and enter test mode*!  
+!*"AT+KSTRINGB=0,3" can be used after "AT+SYSSCOPE=1,0" to enable the dialer code on Verizons*!  
+!*"AT+DUMPCTRL=1,0" must be used before "AT+SWATD=0" on older models*!  
 "AT+SYSSCOPE=1,0"  
 "AT+SWATD=0"  
 "AT+ACTIVATE=0,0,0"  
