@@ -57,10 +57,15 @@ https://developer.android.com/studio/command-line/adb
 
 #### Device Identification
 
+- **Check Serial Number**  
+"get-serialno"  
+
 #### Device Functions
 
 - **Reboot**  
 "reboot"  
+- **Recovery Mode**  
+"reboot-recovery"  
 - **Remove Factory Reset Protection**  
 "shell content insert --uri content://settings/secure --bind name:s:user_setup_complete --bind value:s:1"  
 
