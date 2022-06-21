@@ -1,6 +1,8 @@
 # Mobile-Diagnostics-Research
 
-## Samsung / Android | AT Commands (Hayes Command Set)
+## Samsung / Android  
+## AT Commands  
+## (Hayes Command Set) 
 https://en.wikipedia.org/wiki/Hayes_command_set
 
 ### Device Identification
@@ -35,7 +37,9 @@ https://en.wikipedia.org/wiki/Hayes_command_set
 #### Swipe Screen  
 "AT+CTSA=1,500,500;+CTSA=0,1000,1000"   
 
-## Samsung / Android | ADB Commands (Android Debug Bridge)
+## Samsung / Android  
+## ADB Commands  
+## (Android Debug Bridge)  
 https://developer.android.com/studio/command-line/adb
 
 ### Device Identification
@@ -47,7 +51,9 @@ https://developer.android.com/studio/command-line/adb
 #### Remove Factory Reset Protection  
 "shell content insert --uri content://settings/secure --bind name:s:user_setup_complete --bind value:s:1"  
 
-## Samsung / Tizen | SDB Commands (Smart Development Bridge)
+## Samsung / Tizen  
+## SDB Commands  
+## (Smart Development Bridge)  
 https://developer.tizen.org/development/tizen-studio/web-tools/running-and-testing-your-app/sdb
 
 ### Device Identification
@@ -65,7 +71,9 @@ https://developer.tizen.org/development/tizen-studio/web-tools/running-and-testi
 
 ### Device Functions
 
-## Apple / iOS | iMobileDevice Commands (libimobiledevice)
+## Apple / iOS  
+## iMobileDevice Commands  
+## (libimobiledevice)
 https://libimobiledevice.org
 
 ### Device Identification
