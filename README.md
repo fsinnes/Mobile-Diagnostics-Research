@@ -52,6 +52,17 @@ https://en.wikipedia.org/wiki/Hayes_command_set
 "AT+SWATD=1"  
 "AT+DEBUGLVC=0,5"  
 
+#### Automated Touch Scripts
+
+- **SM-G950 Android 8 Open Dialer**  
+"AT+CTSA=2,600,2100" (Open Dialer)  
+"AT+CTSA=2,300,1700" (\*)  
+"AT+CTSA=2,750,1700" (\#)    
+"AT+CTSA=2,500,1700" (0)    
+"AT+CTSA=2,300,1700" (\*)    
+"AT+CTSA=2,750,1700" (\#)  
+"AT+CTSA=2,900,1450" (Accept Prompt)  
+
 ### ADB Commands (Android Debug Bridge)  
 https://developer.android.com/studio/command-line/adb
 
