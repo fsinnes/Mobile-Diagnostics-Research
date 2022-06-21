@@ -35,6 +35,13 @@ https://en.wikipedia.org/wiki/Hayes_command_set
 "AT+CTSA=3,500,500"  
 - **Swipe Screen**  
 "AT+CTSA=1,500,500;+CTSA=0,1000,1000"   
+- **Enable ADB (Newer Model Version)**  
+*Must type on \*#0\*# dialer and enter test mode*  
+"AT+SYSSCOPE=1,0"  
+"AT+SWATD=0"  
+"AT+ACTIVATE=0,0,0"  
+"AT+SWATD=1"  
+"AT+DEBUGLVC=0,5"  
 
 ### ADB Commands (Android Debug Bridge)  
 https://developer.android.com/studio/command-line/adb
