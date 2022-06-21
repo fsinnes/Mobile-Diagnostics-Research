@@ -1,5 +1,7 @@
 # Mobile-Diagnostics-Research
 
+This will take me a bit to fill up but I will be updating it over the next couple of weeks with information from myself and several people on my team.
+
 ## Samsung / Android
 ### AT Commands (Hayes Command Set)
 https://en.wikipedia.org/wiki/Hayes_command_set
