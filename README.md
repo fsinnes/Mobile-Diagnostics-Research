@@ -73,7 +73,17 @@ or "AT+CTSA=2,600,1900" For Android 11 Dialer
 "AT+CTSA=2,900,1800" (\#)  
 "AT+CTSA=2,900,2000" (Accept ADB Prompt)  
 
-- **SM-G973 Android 9/10 Open Dialer & Accept ADB**  
+- **SM-G973 Android 9/10/11 Open Dialer & Accept ADB**  
+"AT+CTSA=2,100,2100" (Open Dialer)  
+or "AT+CTSA=2,600,1900" For Android 11 Dialer  
+"AT+CTSA=2,300,1800" (\*)  
+"AT+CTSA=2,900,1800" (\#)    
+"AT+CTSA=2,600,1800" (0)    
+"AT+CTSA=2,300,1800" (\*)    
+"AT+CTSA=2,900,1800" (\#)  
+"AT+CTSA=2,900,2000" (Accept ADB Prompt)  
+
+- **SM-G975 Android 9/10/11 Open Dialer & Accept ADB**  
 "AT+CTSA=2,100,2100" (Open Dialer)  
 or "AT+CTSA=2,600,1900" For Android 11 Dialer  
 "AT+CTSA=2,300,1800" (\*)  
