@@ -55,14 +55,16 @@ https://en.wikipedia.org/wiki/Hayes_command_set
 #### Touch Scripts
 
 - **SM-G950**  
-**Android 8 Open Dialer & Accept ADB**  
+**Android 8/9 Open Dialer & Accept ADB**  
 "AT+CTSA=2,600,2100" (Open Dialer)  
+or "AT+CTSA=2,300,2100" For Android 9 Dialer  
 "AT+CTSA=2,300,1700" (\*)  
 "AT+CTSA=2,750,1700" (\#)    
 "AT+CTSA=2,500,1700" (0)    
 "AT+CTSA=2,300,1700" (\*)    
 "AT+CTSA=2,750,1700" (\#)  
 "AT+CTSA=2,900,1450" (Accept ADB Prompt)  
+or "AT+CTSA=2,750,1300" For Android 9 Accept ADB  
 
 - **SM-G970 | SM-G973 | SM-G975**  
 **Android 9/10/11 Open Dialer & Accept ADB**  
