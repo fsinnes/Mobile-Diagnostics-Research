@@ -4,6 +4,9 @@
 ### AT Commands (Hayes Command Set)
 https://en.wikipedia.org/wiki/Hayes_command_set
 
+UPDATE 7/19/23
+There is a program floating around that I made called Bellatrix that will automate this for you. Search for it on github and you will find someone who grabbed it before I removed it. There are current combinations that work with newer phones (the newest models at the time of writing this). Thats all the help I can give you.
+
 #### Device Identification
 
 - **Check Basic Information**  
